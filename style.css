@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2family=Montserrat:wght@100&family=Open+Sans:wght@300&display=swap');
+* {
+  box-sizing: inherit;
+}
+
+/* ------- HEADER ----------------------------------------------------------------------*/
+#mainHeader {
+  background-color: #232628;
+  color: #ECEFF3;
+  font-family: 'open-sans', sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+  width: 100%;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+#mainHeader h1 {
+  font-size: 2em;
+  display: flex;
+  align-items: center;
+  height: 40px;
+  margin: 20;
+}
+.headerTitle {
+  font-size: 15px;
+}
+#headerPhone {
+  font-size: 26px;
+  color: #ECEFF3;
+}
+.headerContent {
+  color: #ECEFF3;
+  font-size: 14px;
+  font-weight: lighter;
+}
+#links {
+  align-items: center;
+  padding: 20px 0 0 0;
+}
+#mainHeader input {
+  border-radius: 20px;
+}
+/* ------- NAV -------------------------------------------------------------------------*/
+#mainNav ul {
+  background-color: white;
+  list-style: none;
+  margin: 0;
+  opacity: 0.9;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  float: right;
+}
+#mainNav a {
+  text-decoration: none;
+  display: block;
+  font-weight: bold;
+  color: #000000;
+  padding: 20px 20px 20px 20px;
+}
+#mainNav a:visited, a:hover {
+  color: #000000;
+}
+#contact {
+  background-color: #CC6119;
+  color: #FFFFFF;
+}
+#contactNav {
+  font-size: 16px;
+  color: #FFFFFF;
+}
+/* ------- NAV -------------------------------------------------------------------------*/
+
+/* ------- HEADER ----------------------------------------------------------------------*/
+
+
+h1 {
+  font-family: "open-sans", sans-serif;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+}
+span {
+  color: #CC6119;
+  font-size: 0.7em;
+  font-weight: bold;
+}
+#pageContent {
+  background: url("images/vehicule3.jpg")center center / cover no-repeat fixed;
+  background-position: top;
+  padding: 100px 20px;
+  /*min-height: 100vh;*/
+}
+::placeholder {
+  background-color: #DEE7EC;
+  color: grey;
+  border: none;
+}
+#newsletter {
+  height: 40px;
+}
+section form {
+  display: flex;
+  margin: 50px;
+  padding: 50px;
+  border: hidden 50px rgba(0, 0, 0, 0.00);
+}
+form {
+  display: grid;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 20px 0;
+  grid-template-columns: repeat(3, 1fr);
+}
+form label {
+}
+form textarea {
+  height: 200px;
+  width: auto;
+  resize: none;
+}
+form button {
+  background-color: cornflowerblue;
+  color: white;
+  padding: 10px;
+  border: none;
+  margin-top: 30px;
+}
+
+/* ------- FOOTER ----------------------------------------------------------------------*/
+footer {
+  color: #ECEFF3;
+  background-color: #232628;
+  width: 100%;
+  padding: 50px 10px 10px 10px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+footer div {
+  flex-basis: 20%;
+  align-content: center;
+  align-items: flex-start;
+}
+#copyright {
+  flex-basis: 100%;
+  margin-top: 40px;
+}
+footer #club {
+  color: #6C98E1;
+  font-size: 16px;
+}
+footer .date {
+  color: grey;
+  font-size: 16px;
+}
+footer h2 {
+  font-size: 16px;
+}
+footer p {
+  margin: 2px 0px;
+  font-size: 14px;
+  font-family: Montserrat, sans-serif;
+}
+#outro p {
+  color: grey;
+}
+.newsletter p {
+  color: grey;
+}
+#rss {
+  vertical-align: middle;
+}
+#email {
+  height: 30px;
+  margin: 0;
+}
+#copyright {
+  color: grey;
+  background-color: #232628;
+  height: 40px;
+  width: 100%;
+  font-size: 1em;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: solid 1px grey;
+}
+#email::placeholder {
+  background-color: white;
+  color: grey;
+}
+/* ------- FOOTER ----------------------------------------------------------------------*/
