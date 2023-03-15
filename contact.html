@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="fr-FR">
+<head>
+<meta charset="utf-8">
+<title>CLUB AUTO - Contactez-nous</title>
+<link rel="stylesheet" href="normalize.css">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<header id="mainHeader">
+  <div>
+    <h1>CLUB AUTO</h1>
+  </div>
+  <div>
+    <p><span class="headerTitle">ADRESSE :</span><br>
+      <span class="headerContent">AVENUE CHARLES DE GAULLE<br>
+      75000 PARIS</span></p>
+  </div>
+  <div>
+    <p><span class="headerTitle">T&Eacute;L&Eacute;PHONE :</span><br>
+      <span id="headerPhone">01 23 45 67 89</span></p>
+  </div>
+  <div>
+    <p><span class="headerTitle">OUVERTURE :</span> Du Lundi au Samedi<br>
+      <span class="headerTitle">HORAIRES :</span> De 9h à 17h</p>
+  </div>
+  <div id="links">
+    <input type="image" src="images/fb.png" alt="facebook" href="#" height="40px">
+    <input type="image" src="images/twitter.png" alt="twitter" href="#" height="40px">
+  </div>
+</header>
+<nav id="mainNav">
+  <ul>
+    <li><a href="index.html">ACCUEIL</a></li>
+    <li><a href="vente.html">VENTE</a></li>
+    <li><a href="location.html">LOCATION</a></li>
+    <li><a href="contact.html" id="contact"><span id="contactNav">CONTACT</span></a></li>
+  </ul>
+</nav>
+<div id="band"></div>
+<section>
+  <div id="formulaire">
+    <form action="envoi.html">
+      <h1>CONTACTEZ-NOUS</h1>
+      <table>
+        <tr>
+          <td><label for="prenom">Prénom*</label>
+            <br>
+            <input type="text" name="prenom" required autofocus tabindex="1" placeholder="Entrez votre prénom"></td>
+          <td><label for="nom">Nom*</label>
+            <br>
+            <input type="text" name="nom" required autofocus tabindex="2" placeholder="Entrez votre nom"></td>
+          <br>
+        <tr>
+          <td id="mail"><label for="mail">Email*</label>
+            <br>
+            <input type="email" name="email" required autofocus tabindex="3" placeholder="Entrez une adresse mail valide"></td>
+          <td><label for="telephone">Téléphone</label>
+            <br>
+            <input type="tel" name="telephone" autofocus tabindex="4" placeholder="Phone number"></td>
+        </tr>
+        <td><label for="message">Message</label>
+            <br>
+            <textarea name="message" autofocus tabindex="5" placeholder="Ecrivez votre message"></textarea></td>
+        </tr>
+      </table>
+      <button>ENVOYEZ</button>
+    </form>
+  </div>
+</section>
+<footer>
+  <div id="outro">
+    <h2><span id="club">CLUB </span>AUTO</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam voluptatibus libero veniam sapiente debitis rerum. </p>
+  </div>
+  <div>
+    <h2>HORAIRE D'OUVERTURE</h2>
+    <p><span class="date">Lundi - Samedi :</span> 09:00 - 17:00</p>
+    <p><span class="date">Dimanche et jours fériés :</span> Fermé</p>
+  </div>
+  <div class="newsletter">
+    <h2>NEWSLETTER</h2>
+    <input type="email" placeholder="Entrez votre email" id="email">
+    <input type="image" src="images/rss.png" alt="flux rss" height="35px" id="rss">
+    <p>Inscrivez-vous pour recevoir les dernières offres</p>
+  </div>
+  <div>
+    <h2>RESEAUX SOCIAUX</h2>
+    <input type="image" src="images/fb.png" alt="facebook" href="#" height="40px">
+    <input type="image" src="images/twitter.png" alt="twitter" href="#" height="40px">
+    <input type="image" src="images/insta.png" alt="instagram" href="#" height="40px">
+    <input type="image" src="images/google.png" alt="google plus" href="#" height="40px">
+    <input type="image" src="images/youtube.png" alt="youtube" href="#" height="40px">
+  </div>
+  <div id="copyright">
+    <p>Copyright &copy; Club auto - Tous droits réservés</p>
+  </div>
+</footer>
+</body>
+</html>
