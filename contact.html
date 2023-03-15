@@ -7,7 +7,7 @@
 <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body id="contactPage">
 <header id="mainHeader">
   <div>
     <h1>CLUB AUTO</h1>
@@ -40,34 +40,32 @@
 </nav>
 <div id="band"></div>
 <section>
-  <div id="formulaire">
-    <form action="envoi.html">
-      <h1>CONTACTEZ-NOUS</h1>
-      <table>
-        <tr>
-          <td><label for="prenom">Prénom*</label>
-            <br>
-            <input type="text" name="prenom" required autofocus tabindex="1" placeholder="Entrez votre prénom"></td>
-          <td><label for="nom">Nom*</label>
-            <br>
-            <input type="text" name="nom" required autofocus tabindex="2" placeholder="Entrez votre nom"></td>
+  <form action="envoi.html">
+    <h1>CONTACTEZ-NOUS</h1>
+    <table>
+      <tr>
+        <td><label for="prenom">Prénom*</label>
           <br>
-        <tr>
-          <td id="mail"><label for="mail">Email*</label>
-            <br>
-            <input type="email" name="email" required autofocus tabindex="3" placeholder="Entrez une adresse mail valide"></td>
-          <td><label for="telephone">Téléphone</label>
-            <br>
-            <input type="tel" name="telephone" autofocus tabindex="4" placeholder="Phone number"></td>
-        </tr>
-        <td><label for="message">Message</label>
-            <br>
-            <textarea name="message" autofocus tabindex="5" placeholder="Ecrivez votre message"></textarea></td>
-        </tr>
-      </table>
-      <button>ENVOYEZ</button>
-    </form>
-  </div>
+          <input type="text" name="prenom" required autofocus tabindex="1" placeholder="Entrez votre prénom"></td>
+        <td><label for="nom">Nom*</label>
+          <br>
+          <input type="text" name="nom" required autofocus tabindex="2" placeholder="Entrez votre nom"></td>
+        <br>
+      <tr>
+        <td id="mail"><label for="mail">Email*</label>
+          <br>
+          <input type="email" name="email" required autofocus tabindex="3" placeholder="Entrez une adresse mail valide"></td>
+        <td><label for="telephone">Téléphone</label>
+          <br>
+          <input type="tel" name="telephone" autofocus tabindex="4" placeholder="Phone number"></td>
+      </tr>
+      <td><label for="message">Message</label>
+          <br>
+          <textarea name="message" autofocus tabindex="5" placeholder="Ecrivez votre message"></textarea>
+        <td><button>ENVOYEZ</button></td></td>
+      </tr>
+    </table>
+  </form>
 </section>
 <footer>
   <div id="outro">
@@ -81,7 +79,7 @@
   </div>
   <div class="newsletter">
     <h2>NEWSLETTER</h2>
-    <input type="email" placeholder="Entrez votre email" id="email">
+    <input type="email" id="newsletter" placeholder="Entrez votre email">
     <input type="image" src="images/rss.png" alt="flux rss" height="35px" id="rss">
     <p>Inscrivez-vous pour recevoir les dernières offres</p>
   </div>
