@@ -97,58 +97,7 @@ span {
   color: #CC6119;
   font-weight: bold;
 }
-.clubAuto {
-  color: #CC6119;
-  font-size: 1em;
-  font-weight: bold;
-}
-#contactPage {
-  background-color: #DEE7EC;
-}
-/* ------- CONTACT FORM ----------------------------------------------------------------*/
-form input, textarea {
-  background-color: #DEE7EC;
-  color: grey;
-  border: none;
-  width: 250px;
-  margin: 10px 30px 30px 0;
-  padding: 20px 50px;
-}
-form {
-  background-color: white;
-  display: grid;
-  grid-auto-rows: 3;
-  margin: 50px;
-  padding: 30px;
-  border: hidden 50px rgba(0, 0, 0, 0.00);
-}
-table {
-  display: grid;
-  justify-content: space-between;
-  grid-template-columns: repeat(2, (1fr));
-  grid-area: center;
-}
-form textarea {
-  height: 150px;
-  width: 300px;
-  resize: none;
-}
-form button {
-  background-color: cornflowerblue;
-  color: white;
-  width: 300px;
-  padding: 20px;
-  border: none;
-  border-radius: 5px;
-}
-#submit {
-    margin: 15vh;
-    font-size: 24px;
-    border: solid 2px grey;
-    padding: 100px;
-    border-radius: 15px;
-}
-/* ------- CONTACT FORM ----------------------------------------------------------------*/
+
 /* ------- FOOTER ----------------------------------------------------------------------*/
 footer {
   color: #ECEFF3;

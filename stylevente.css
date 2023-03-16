@@ -49,17 +49,6 @@
   justify-content: flex-end;
   float: right;
 }
-#titleIndex {
-  background-color: #232628;
-    color: white;
-  list-style: none;
-  margin: 0;
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  float: left;
-}
 #mainNav a {
   text-decoration: none;
   display: block;
@@ -80,10 +69,10 @@
 }
 /* ------- NAV -------------------------------------------------------------------------*/
 /* ------- HEADER ----------------------------------------------------------------------*/
-#bandIndex {
-  background: url(images/vehicule1.jpg)center center / cover no-repeat;
+#bandVente {
+  background: url("images/vente-location.jpg")center center / cover no-repeat fixed;
   background-position: top;
-  padding: 300px 20px;
+  padding: 100px 20px;
   /*min-height: 100vh;*/
 }
 h1 {
@@ -95,11 +84,7 @@ body {
 }
 span {
   color: #CC6119;
-  font-weight: bold;
-}
-.clubAuto {
-  color: #CC6119;
-  font-size: 1em;
+  font-size: 0.7em;
   font-weight: bold;
 }
 #contactPage {
