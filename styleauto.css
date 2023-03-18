@@ -37,6 +37,10 @@
 #mainHeader input {
   border-radius: 20px;
 }
+span {
+  color: #CC6119;
+  font-weight: bold;
+}
 /* ------- NAV -------------------------------------------------------------------------*/
 #mainNav ul {
   background-color: white;
@@ -49,17 +53,6 @@
   justify-content: flex-end;
   float: right;
 }
-#titleIndex {
-  background-color: #232628;
-    color: white;
-  list-style: none;
-  margin: 0;
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  float: left;
-}
 #mainNav a {
   text-decoration: none;
   display: block;
@@ -70,22 +63,9 @@
 #mainNav a:visited, a:hover {
   color: #000000;
 }
-#actualPage {
-  background-color: #CC6119;
-  color: #FFFFFF;
-}
-#page {
-  font-size: 16px;
-  color: #FFFFFF;
-}
 /* ------- NAV -------------------------------------------------------------------------*/
 /* ------- HEADER ----------------------------------------------------------------------*/
-#bandIndex {
-  background: url(images/vehicule1.jpg)center center / cover no-repeat;
-  background-position: top;
-  padding: 300px 20px;
-  /*min-height: 100vh;*/
-}
+
 h1 {
   font-family: "open-sans", sans-serif;
 }
@@ -93,9 +73,57 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 1rem;
 }
-span {
-  color: #CC6119;
-  font-weight: bold;
+section {
+    width: 800px;
+    margin-left: 200px;
+}
+#path {
+    color: grey;
+    font-size: 0.7em;
+    font-weight: 100;
+}
+#pathNav {
+    border-bottom: solid 1px grey;
+}
+#ongletsDetails {
+  background-color: #232628;
+  list-style: none;
+    font-weight: bold;
+  width: 760px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+    align-items: baseline;
+}
+#ongletsDetails li {
+    color: white;
+    padding: 20px;
+}
+#firstP {
+    font-size: 17px;
+}
+p {
+    font-size: 15px;
+}
+li {
+    list-style: none;
+}
+#ongletsDetails #description {
+    color: black;
+    background-color: white;
+    border-top: solid 3px orange;
+    border-left: solid 3px black;
+    margin-left: -40px;
+}
+#optionsVoiture li::before{
+    list-style: none;
+    margin: 10px;
+    content: "\2713";
+    color: orange;
+}
+blockquote {
+    font-style: italic;
+    color: grey;
 }
 
 /* ------- FOOTER ----------------------------------------------------------------------*/

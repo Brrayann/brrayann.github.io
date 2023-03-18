@@ -9,22 +9,25 @@
 
 <body>
 <header id="mainHeader">
-<div>
+  <div>
     <h1>CLUB AUTO</h1>
-    </div>
-    <div>
-        <p><span class="headerTitle">ADRESSE :</span><br><span class="headerContent">AVENUE CHARLES DE GAULLE<br>75000 PARIS</span></p>
-    </div>
-    <div>
-      <p><span class="headerTitle">T&Eacute;L&Eacute;PHONE :</span><br><span id="headerPhone">01 23 45 67 89</span></p>
-</div>
+  </div>
+  <div>
+    <p><span class="headerTitle">ADRESSE :</span><br>
+      <span class="headerContent">AVENUE CHARLES DE GAULLE<br>
+      75000 PARIS</span></p>
+  </div>
+  <div>
+    <p><span class="headerTitle">T&Eacute;L&Eacute;PHONE :</span><br>
+      <span id="headerPhone">01 23 45 67 89</span></p>
+  </div>
   <div>
     <p><span class="headerTitle">OUVERTURE :</span> Du Lundi au Samedi<br>
-        <span class="headerTitle">HORAIRES :</span> De 9h à 17h</p>
-    </div>
-<div id="links">
-  <input type="image" src="images/fb.png" alt="facebook" href="#" height="40px">
-<input type="image" src="images/twitter.png" alt="twitter" href="#" height="40px">
+      <span class="headerTitle">HORAIRES :</span> De 9h à 17h</p>
+  </div>
+  <div id="links">
+    <input type="image" src="images/fb.png" alt="facebook" href="#" height="40px">
+    <input type="image" src="images/twitter.png" alt="twitter" href="#" height="40px">
   </div>
 </header>
 <nav id="mainNav">
@@ -35,8 +38,75 @@
     <li><a href="contact.html">CONTACT</a></li>
   </ul>
 </nav>
-    <div id="bandVente"></div>
-    <section></section>
+<div class="bandVente">
+  <h1 class="bandVente">VENTE</h1>
+</div>
+<section>
+  <div id="section">
+    <main>
+      <div id="main">
+        <article> <a href="details.html"><img src="images/vehicule2.jpg" alt="Photo de la BMW 535i" width="250px"></a> <span class="price">5000€</span>
+          <h3>BMW 535i, Navi, Leather, ABS</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium voluptate perferendis, similique aliquid harum quibusdam? Vel, beatae sapiente. Debitis corrupti laboriosam, unde? Voluptas suscipit quaerat, facere saepe exercitationem magnam molestias fugiat dolore?</p>
+          <br>
+          <a href="details.html" class="details"><strong>>> En savoir plus <<</strong></a> </article>
+        <article> <a href="details.html"><img src="images/vehicule2.jpg" alt="Photo de la BMW 535i" width="250px"></a> <span class="price">5000€</span>
+          <h3>BMW 535i, Navi, Leather, ABS</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium voluptate perferendis, similique aliquid harum quibusdam? Vel, beatae sapiente. Debitis corrupti laboriosam, unde? Voluptas suscipit quaerat, facere saepe exercitationem magnam molestias fugiat dolore?</p>
+          <br>
+          <a href="details.html" class="details"><strong>>> En savoir plus <<</strong></a> </article>
+        <article> <a href="details.html"><img src="images/vehicule2.jpg" alt="Photo de la BMW 535i" width="250px"></a> <span class="price">5000€</span>
+          <h3>BMW 535i, Navi, Leather, ABS</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium voluptate perferendis, similique aliquid harum quibusdam? Vel, beatae sapiente. Debitis corrupti laboriosam, unde? Voluptas suscipit quaerat, facere saepe exercitationem magnam molestias fugiat dolore?</p>
+          <br>
+          <a href="details.html" class="details"><strong>>> En savoir plus <<</strong></a></article>
+        <article> <a href="details.html"><img src="images/vehicule2.jpg" alt="Photo de la BMW 535i" width="250px"></a> <span class="price">5000€</span>
+          <h3>BMW 535i, Navi, Leather, ABS</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium voluptate perferendis, similique aliquid harum quibusdam? Vel, beatae sapiente. Debitis corrupti laboriosam, unde? Voluptas suscipit quaerat, facere saepe exercitationem magnam molestias fugiat dolore?</p>
+          <br>
+          <a href="details.html" class="details"><strong>>> En savoir plus <<</strong></a> </article>
+      </div>
+    </main>
+    <aside>
+      <div id="search">
+        <div id="rechercher">
+          <h4><img src="images/icone-voiture.png" alt="Icône rechercher" width="50px">Rechercher</h4>
+        </div>
+        <div id="champ">
+          <form action="#">
+            <select name="age">
+              <option value="type">Type</option>
+            </select>
+            <br>
+            <select name="age">
+              <option value="carburant">Carburant</option>
+            </select>
+            <br>
+            <select name="age">
+              <option value="marque">Marque</option>
+            </select>
+            <br>
+            <select name="age">
+              <option value="modele">Modèle</option>
+            </select>
+            <br>
+            <select name="age">
+              <option value="kilometrage">Kilométrage maximal</option>
+            </select>
+          </form>
+          <p><strong>Prix</strong></p>
+          <div>
+            <input type="range" class="range" value="2000" min"0" max="100000">
+            <input type="range" class="range" value="80000" min"0" max="100000">
+          </div>
+          <p><span class="champ">2000</span>&nbsp;<span class="champ">80000</span></p>
+          <br>
+          <button id="reinitialiser">réinitialiser</button>
+        </div>
+      </div>
+    </aside>
+  </div>
+</section>
 <footer>
   <div id="outro">
     <h2><span id="club">CLUB </span>AUTO</h2>
