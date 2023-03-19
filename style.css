@@ -51,7 +51,7 @@
 }
 #titleIndex {
   background-color: #232628;
-    color: white;
+  color: white;
   list-style: none;
   margin: 0;
   width: 100%;
@@ -89,6 +89,9 @@
 h1 {
   font-family: "open-sans", sans-serif;
 }
+a {
+    text-decoration: none;
+}
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 1rem;
@@ -102,8 +105,124 @@ span {
   font-size: 1em;
   font-weight: bold;
 }
-#contactPage {
-  background-color: #DEE7EC;
+#titleIndex {
+  padding-left: 250px;
+}
+#firstPicture {
+  float: left;
+  margin: 0 50px;
+}
+#secondPicture {
+  float: right;
+}
+#firstBlock {
+  width: 70%;
+  margin: 100px 200px 150px 200px;
+  padding: 20px;
+}
+#secondBlock {
+  width: 70%;
+  margin: 100px 200px 50px 200px;
+  padding: 20px;
+}
+#leMeilleur {
+  border-bottom: ridge 1px grey;
+  padding-bottom: 20px;
+  width: 50%;
+}
+#optionsVoiture {
+  list-style: none;
+}
+#optionsVoiture li::before {
+  margin: 10px;
+  content: "\2713";
+  color: orange;
+  line-height: 40px;
+}
+#bandeau {
+  background-image: url("images/vente-location.jpg");
+  display: flex;
+  justify-content: space-around;
+  height: 400px;
+  width: 100%;
+}
+a:visited, a:hover {
+  color: #000000;
+}
+#bandeau h3 {
+  text-align: center;
+  color: black;
+  font-size: 30px;
+}
+#bandeau p {
+  color: white;
+}
+#louer {
+  background-color: #FAB637;
+  opacity: 0.8;
+  margin: 50px 0 50px 50px;
+  padding: 50px;
+  display: inline-block;
+  float: left;
+  width: 600px;
+}
+#acheter {
+  background-color: #FF4848;
+  opacity: 0.8;
+  margin: 50px 0 50px 50px;
+  padding: 50px;
+  display: inline-block;
+  float: right;
+  width: 600px;
+}
+#bandeauBas {
+  background-image: url("images/vehicule3.jpg");
+  display: flex;
+  justify-content: space-around;
+  height: 400px;
+  width: 100%;
+}
+#venteAndLocation {
+  background-color: #FAB637;
+  opacity: 0.8;
+  margin: 50px 500px 50px 0;
+  padding: 0 50px;
+  width: 600px;
+  text-align: justify;
+}
+#bandeauBas h3 {
+  color: black;
+  font-size: 40px;
+}
+#end {
+  color: white;
+}
+#choose {
+    text-align: center;
+    font-size: 0.9em;
+        display: inline-block;
+}
+h5 {
+    font-size: 40px;
+    text-align: center;
+}
+#contactUs {
+      background-color: #6C98E1;
+    color: #ECEFF3;
+    border: solid 1px;
+    border-radius: 5px;
+    padding: 15px 50px;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 50px 50px 30px 50px;
+}
+#button { 
+    display: block;
+text-align: center;
+}
+
+td {
+  text-align: center;  
 }
 /* ------- FOOTER ----------------------------------------------------------------------*/
 footer {

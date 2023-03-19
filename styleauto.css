@@ -115,7 +115,7 @@ li {
     border-left: solid 3px black;
     margin-left: -40px;
 }
-#optionsVoiture li::before{
+#optionsVoiture li::before {
     list-style: none;
     margin: 10px;
     content: "\2713";
