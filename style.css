@@ -1,294 +1,327 @@
 @import url('https://fonts.googleapis.com/css2family=Montserrat:wght@100&family=Open+Sans:wght@300&display=swap');
 /* ------- HEADER ----------------------------------------------------------------------*/
 #mainHeader {
-  background-color: #232628;
-  color: #ECEFF3;
-  font-family: 'open-sans', sans-serif;
-  font-size: 17px;
-  font-weight: bold;
-  width: 100%;
-  padding-top: 20px;
-  display: flex;
-  justify-content: space-around;
+   background-color: #232628;
+   color: #ECEFF3;
+   font-family: 'open-sans', sans-serif;
+   font-size: 17px;
+   font-weight: bold;
+   width: 100%;
+   padding-top: 20px;
+   display: flex;
+   justify-content: space-around;
 }
 #mainHeader h1 {
-  font-size: 2em;
-  display: flex;
-  align-items: center;
-  height: 40px;
-  margin: 20;
+   font-size: 2em;
+   display: flex;
+   align-items: center;
+   height: 40px;
+   margin: 20;
 }
 .headerTitle {
-  font-size: 15px;
+   font-size: 15px;
 }
 #headerPhone {
-  font-size: 26px;
-  color: #ECEFF3;
+   font-size: 26px;
+   color: #ECEFF3;
 }
 .headerContent {
-  color: #ECEFF3;
-  font-size: 14px;
-  font-weight: lighter;
+   color: #ECEFF3;
+   font-size: 14px;
+   font-weight: lighter;
 }
 #links {
-  align-items: center;
-  padding: 20px 0 0 0;
+   align-items: center;
+   padding: 20px 0 0 0;
 }
 #mainHeader input {
-  border-radius: 20px;
+   border-radius: 20px;
 }
 /* ------- NAV -------------------------------------------------------------------------*/
 #mainNav ul {
-  background-color: white;
-  list-style: none;
-  margin: 0;
-  opacity: 0.9;
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  float: right;
+   background-color: white;
+   list-style: none;
+   margin: 0;
+   opacity: 0.9;
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-end;
+   float: right;
 }
 #titleIndex {
-  background-color: #232628;
-  color: white;
-  list-style: none;
-  margin: 0;
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  float: left;
+   background-color: #232628;
+   color: white;
+   list-style: none;
+   margin: 0;
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-start;
+   float: left;
 }
 #mainNav a {
-  text-decoration: none;
-  display: block;
-  font-weight: bold;
-  color: #000000;
-  padding: 20px 20px 20px 20px;
+   text-decoration: none;
+   display: block;
+   font-weight: bold;
+   color: #000000;
+   padding: 20px 20px 20px 20px;
 }
 #mainNav a:visited, a:hover {
-  color: #000000;
+   color: #000000;
 }
 #actualPage {
-  background-color: #CC6119;
-  color: #FFFFFF;
+   background-color: #CC6119;
+   color: #FFFFFF;
 }
 #page {
-  font-size: 16px;
-  color: #FFFFFF;
+   font-size: 16px;
+   color: #FFFFFF;
 }
 /* ------- NAV -------------------------------------------------------------------------*/
 /* ------- HEADER ----------------------------------------------------------------------*/
 #bandIndex {
-  background: url(images/vehicule1.jpg)center center / cover no-repeat;
-  background-position: top;
-  padding: 300px 20px;
-  /*min-height: 100vh;*/
+   background: url(images/vehicule1.jpg)center center / cover no-repeat;
+   background-position: top;
+   padding: 300px 20px;
+   /*min-height: 100vh;*/
 }
 h1 {
-  font-family: "open-sans", sans-serif;
+   font-family: "open-sans", sans-serif;
 }
 a {
-    text-decoration: none;
+   text-decoration: none;
 }
 body {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1rem;
+   font-family: 'Open Sans', sans-serif;
+   font-size: 1rem;
 }
 span {
-  color: #CC6119;
-  font-weight: bold;
+   color: #CC6119;
+   font-weight: bold;
 }
 .clubAuto {
-  color: #CC6119;
-  font-size: 1em;
-  font-weight: bold;
+   color: #CC6119;
+   font-size: 1em;
+   font-weight: bold;
 }
 #titleIndex {
-  padding-left: 250px;
+   padding-left: 250px;
 }
 #firstPicture {
-  float: left;
-  margin: 0 50px;
+   float: left;
+   margin: 0 50px;
 }
 #secondPicture {
-  float: right;
+   float: right;
 }
 #firstBlock {
-  width: 70%;
-  margin: 100px 200px 150px 200px;
-  padding: 20px;
+   width: 70%;
+   margin: 100px 200px 150px 200px;
+   padding: 20px;
 }
 #secondBlock {
-  width: 70%;
-  margin: 100px 200px 50px 200px;
-  padding: 20px;
+   width: 70%;
+   margin: 100px 200px 50px 200px;
+   padding: 20px;
 }
 #leMeilleur {
-  border-bottom: ridge 1px grey;
-  padding-bottom: 20px;
-  width: 50%;
+   border-bottom: ridge 1px grey;
+   padding-bottom: 20px;
+   width: 50%;
 }
 #optionsVoiture {
-  list-style: none;
+   list-style: none;
 }
 #optionsVoiture li::before {
-  margin: 10px;
-  content: "\2713";
-  color: orange;
-  line-height: 40px;
+   margin: 10px;
+   content: "\2713";
+   color: orange;
+   line-height: 40px;
 }
 #bandeau {
-  background-image: url("images/vente-location.jpg");
-  display: flex;
-  justify-content: space-around;
-  height: 400px;
-  width: 100%;
+   background-image: url("images/vente-location.jpg");
+   display: flex;
+   justify-content: space-around;
+   height: 400px;
+   width: 100%;
 }
 a:visited, a:hover {
-  color: #000000;
+   color: #000000;
 }
 #bandeau h3 {
-  text-align: center;
-  color: black;
-  font-size: 30px;
+   text-align: center;
+   color: black;
+   font-size: 30px;
 }
 #bandeau p {
-  color: white;
+   color: white;
 }
 #louer {
-  background-color: #FAB637;
-  opacity: 0.8;
-  margin: 50px 0 50px 50px;
-  padding: 50px;
-  display: inline-block;
-  float: left;
-  width: 600px;
+   background-color: #FAB637;
+   opacity: 0.8;
+   margin: 50px 0 50px 50px;
+   padding: 50px;
+   display: inline-block;
+   float: left;
+   width: 600px;
 }
 #acheter {
-  background-color: #FF4848;
-  opacity: 0.8;
-  margin: 50px 0 50px 50px;
-  padding: 50px;
-  display: inline-block;
-  float: right;
-  width: 600px;
+   background-color: #FF4848;
+   opacity: 0.8;
+   margin: 50px 0 50px 50px;
+   padding: 50px;
+   display: inline-block;
+   float: right;
+   width: 600px;
 }
 #bandeauBas {
-  background-image: url("images/vehicule3.jpg");
-  display: flex;
-  justify-content: space-around;
-  height: 400px;
-  width: 100%;
+   background-image: url("images/vehicule3.jpg");
+   display: flex;
+   justify-content: space-around;
+   height: 400px;
+   width: 100%;
 }
 #venteAndLocation {
-  background-color: #FAB637;
-  opacity: 0.8;
-  margin: 50px 500px 50px 0;
-  padding: 0 50px;
-  width: 600px;
-  text-align: justify;
+   background-color: #FAB637;
+   opacity: 0.8;
+   margin: 50px 500px 50px 0;
+   padding: 0 50px;
+   width: 600px;
+   text-align: justify;
+}
+#recents {
+   background-color: #232628;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+}
+article {
+   background-color: #232628;
+   color: white;
+   font-weight: bold;
+   text-align: center;
+}
+article h4 {
+   font-size: 30px;
+   margin: 40px 200px;
+   padding: 20px;
+   width: 80%;
+   border-bottom: solid 2px orange;
+}
+.vehicules {
+   flex-direction: row;
+}
+.descriptionAuto {
+   display: flex;
+   background-color: #454444;
+}
+.price {
+   background-color: #6C98E1;
+   color: #ECEFF3;
+   padding: 20px 20px;
+   margin: 0 0 0 20px;
+   font-size: 16px;
+   float: right;
 }
 #bandeauBas h3 {
-  color: black;
-  font-size: 40px;
+   color: black;
+   font-size: 40px;
 }
 #end {
-  color: white;
+   color: white;
 }
 #choose {
-    text-align: center;
-    font-size: 0.9em;
-        display: inline-block;
+   text-align: center;
+   font-size: 0.9em;
+   display: inline-block;
 }
 h5 {
-    font-size: 40px;
-    text-align: center;
+   font-size: 40px;
+   text-align: center;
 }
 #contactUs {
-      background-color: #6C98E1;
-    color: #ECEFF3;
-    border: solid 1px;
-    border-radius: 5px;
-    padding: 15px 50px;
-    font-size: 16px;
-    font-weight: bold;
-    margin: 50px 50px 30px 50px;
+   background-color: #6C98E1;
+   color: #ECEFF3;
+   border: solid 1px;
+   border-radius: 5px;
+   padding: 15px 50px;
+   font-size: 16px;
+   font-weight: bold;
+   margin: 50px 50px 30px 50px;
 }
-#button { 
-    display: block;
-text-align: center;
+#button {
+   display: block;
+   text-align: center;
 }
-
 td {
-  text-align: center;  
+   text-align: center;
 }
 /* ------- FOOTER ----------------------------------------------------------------------*/
 footer {
-  color: #ECEFF3;
-  background-color: #232628;
-  width: 100%;
-  padding: 50px 10px 10px 10px;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
+   color: #ECEFF3;
+   background-color: #232628;
+   width: 100%;
+   padding: 50px 10px 10px 10px;
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: space-around;
 }
 footer div {
-  flex-basis: 20%;
-  align-content: center;
-  align-items: flex-start;
+   flex-basis: 20%;
+   align-content: center;
+   align-items: flex-start;
 }
 #copyright {
-  flex-basis: 100%;
-  margin-top: 40px;
+   flex-basis: 100%;
+   margin-top: 40px;
 }
 footer #club {
-  color: #6C98E1;
-  font-size: 16px;
+   color: #6C98E1;
+   font-size: 16px;
 }
 footer .date {
-  color: grey;
-  font-size: 16px;
+   color: grey;
+   font-size: 16px;
 }
 footer h2 {
-  font-size: 16px;
+   font-size: 16px;
 }
 footer p {
-  margin: 2px 0px;
-  font-size: 14px;
-  font-family: Montserrat, sans-serif;
+   margin: 2px 0px;
+   font-size: 14px;
+   font-family: Montserrat, sans-serif;
 }
 #outro p {
-  color: grey;
+   color: grey;
 }
 #newsletter {
-  height: 35px;
+   height: 35px;
 }
 .newsletter p {
-  color: grey;
+   color: grey;
 }
 #rss {
-  vertical-align: middle;
+   vertical-align: middle;
 }
 #email {
-  height: 30px;
-  margin: 0;
+   height: 30px;
+   margin: 0;
 }
 #copyright {
-  color: grey;
-  background-color: #232628;
-  height: 40px;
-  width: 100%;
-  font-size: 1em;
-  bottom: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-top: solid 1px grey;
+   color: grey;
+   background-color: #232628;
+   height: 40px;
+   width: 100%;
+   font-size: 1em;
+   bottom: 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-top: solid 1px grey;
 }
 #email::placeholder {
-  background-color: white;
-  color: grey;
+   background-color: white;
+   color: grey;
 }
 /* ------- FOOTER ----------------------------------------------------------------------*/
